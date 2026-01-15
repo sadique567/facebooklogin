@@ -8,11 +8,15 @@ class HomeView extends GetView<HomeController> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("Home Screen")),
+      appBar: AppBar(
+        title: Text("Home Screen"),
+        centerTitle: true,
+        automaticallyImplyLeading: false,
+      ),
       body: Center(
         child: ElevatedButton(
           onPressed: () {
-            Get.toNamed(Routes.HOME_SCREEN);
+            Get.toNamed(Routes.FACEBOOK_LOGIN);
           },
           child: Text("Login with facebook"),
         ),

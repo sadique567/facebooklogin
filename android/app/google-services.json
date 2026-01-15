@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1009629449532",
+    "project_id": "mslogin-2feed",
+    "storage_bucket": "mslogin-2feed.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1009629449532:android:56319b3cbf153792e92239",
+        "android_client_info": {
+          "package_name": "com.example.fblogin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTT_GgqaD9pHuEgxhDvFk-smqY2P9fKVY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
