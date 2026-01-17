@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">mslogin</string>
+<string name="facebook_app_id">901692188981062</string>
+<string name="fb_login_protocol_scheme">fb901692188981062</string>
+<string name="facebook_client_token">3bfc27d9f7d05e078982e35300512dc7</string>
+</resources>
+
+<!--app secret 047df7cd535090fb5b81e95660ef23a1   -->
+<!-- client Tocken    3bfc27d9f7d05e078982e35300512dc7 -->

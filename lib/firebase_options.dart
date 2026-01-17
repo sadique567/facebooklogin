@@ -63,7 +63,7 @@ class DefaultFirebaseOptions {
     messagingSenderId: '1009629449532',
     projectId: 'mslogin-2feed',
     storageBucket: 'mslogin-2feed.firebasestorage.app',
-    iosBundleId: 'com.example.fblogin',
+    iosBundleId: 'com.myapp.fblogin',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
@@ -72,7 +72,7 @@ class DefaultFirebaseOptions {
     messagingSenderId: '1009629449532',
     projectId: 'mslogin-2feed',
     storageBucket: 'mslogin-2feed.firebasestorage.app',
-    iosBundleId: 'com.example.fblogin',
+    iosBundleId: 'com.myapp.fblogin',
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
