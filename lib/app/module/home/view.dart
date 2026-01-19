@@ -25,20 +25,31 @@ class HomeView extends GetView<HomeController> {
           ),
         ],
       ),
-      body: Center(
-        child: ElevatedButton(
-          onPressed: () async {
-            final userCredential = await signInWithFacebook();
-            if (userCredential != null) {
-              print('Login success: ${userCredential.user?.email}');
-            } else {
-              print('Login failed');
-            }
-            // signInWithFacebook();
-            // Get.toNamed(Routes.FACEBOOK_LOGIN);
-          },
-          child: Text("Login with facebookcee"),
-        ),
+      body: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        crossAxisAlignment: CrossAxisAlignment.center,
+        children: [
+          ElevatedButton(
+            onPressed: () async {
+              controller.loginWithTwitter();
+            },
+            child: Text("🪁 Login with Twitter"),
+          ),
+          SizedBox(height: 15),
+          ElevatedButton(
+            onPressed: () async {
+              final userCredential = await signInWithFacebook();
+              if (userCredential != null) {
+                print('Login success: ${userCredential.user?.email}');
+              } else {
+                print('Login failed');
+              }
+              // signInWithFacebook();
+              // Get.toNamed(Routes.FACEBOOK_LOGIN);
+            },
+            child: Text("Login with facebookcee"),
+          ),
+        ],
       ),
     );
   }
